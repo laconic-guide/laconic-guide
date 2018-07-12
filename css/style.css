@@ -173,7 +173,7 @@ there.
   }
 
   .container, .nav-container, .img-comp-container img {
-    width: 240px;
+    width: 230px;
   }
 
   .nav-container ul {
@@ -189,6 +189,7 @@ there.
 
   .row {
     flex-direction: column;
+    padding: 0;
   }
 
   .forty, .fifty, .sixty {
@@ -208,6 +209,10 @@ there.
 @media (min-width: 400px) {
   .container, .nav-container, .img-comp-container img {
     width: 360px;
+  }
+
+  .row {
+    padding: 10px;
   }
 }
 
@@ -245,6 +250,7 @@ there.
 
   .row {
     flex-direction: row;
+    padding: 30px;
   }
 
   .sixty {
