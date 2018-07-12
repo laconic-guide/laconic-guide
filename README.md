@@ -1,1 +1,1 @@
-# laconic
+# laconic-guide
