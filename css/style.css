@@ -86,7 +86,6 @@ ul {
   padding: 30px;
   display: flex;
   flex-direction: row;
-  margin-bottom: 30px;
 }
 
 .column {
@@ -114,44 +113,10 @@ ul {
   margin-left: 40px;
 }
 
-.img-comp-container {
-  position: relative;
-  width: 100%;
-  margin-bottom: 100px;
+.img-comp {
+  margin-bottom: 50px;
 }
 
-.img-comp-back {
-  box-shadow: 0 10px 40px 0 #000;
-  position: absolute;
-}
-
-.img-comp-overlay {
-  position: relative;
-  overflow: hidden;
-}
-
-.img-comp-container img {
-  display: block;
-  width: 320px;
-  vertical-align: middle;
-}
-
-.img-comp-slider {
-  position: absolute;
-  z-index: 9;
-  cursor: ew-resize;
-  /*set the appearance of the slider:*/
-  width: 50px;
-  height: 50px;
-  background-color: #039BE5;
-  opacity: 0.25;
-  border-radius: 50%;
-  transition: opacity .3s;
-}
-
-.img-comp-slider:hover {
-  opacity: .75;
-}
 
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -173,7 +138,7 @@ there.
   }
 
   .container, .nav-container, .img-comp-container img {
-    width: 230px;
+    width: 280px;
   }
 
   .nav-container ul {
