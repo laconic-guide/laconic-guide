@@ -14,7 +14,8 @@ h1, h2, h3, h4, h5, h6{
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 20px;
+  font-family: 'Lora', serif;
 }
 
 p, a {
@@ -51,7 +52,7 @@ ul {
 }
 
 .nav-container {
-  width: 320px;
+  width: 250px;
   margin: 0 auto;
   height: 100%;
 }
@@ -73,7 +74,7 @@ ul {
 }
 
 .container {
-  width: 320px;
+  width: 250px;
   margin: 0 auto;
   position: relative;
   margin-top: 100px;
@@ -137,8 +138,8 @@ there.
     margin-top: 40px;
   }
 
-  .container, .nav-container, .img-comp-container img {
-    width: 280px;
+  .container, .nav-container{
+    width: 250px;
   }
 
   .nav-container ul {
@@ -172,7 +173,7 @@ there.
 
 /* Larger than mobile */
 @media (min-width: 400px) {
-  .container, .nav-container, .img-comp-container img {
+  .container, .nav-container {
     width: 360px;
   }
 
@@ -183,7 +184,7 @@ there.
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
-  .container, .nav-container, .img-comp-container img {
+  .container, .nav-container{
     width: 500px;
   }
 }
@@ -194,7 +195,7 @@ there.
     position: fixed;
   }
 
-  .container, .nav-container, .img-comp-container img {
+  .container, .nav-container{
     width: 700px;
   }
 
@@ -241,14 +242,14 @@ there.
 
 /* Larger than desktop */
 @media (min-width: 1000px) {
-  .container, .nav-container, .img-comp-container img {
+  .container, .nav-container {
     width: 920px;
   }
 }
 
 /* Larger than Desktop HD */
 @media (min-width: 1360px) {  
-  .container, .nav-container, .img-comp-container img {
+  .container, .nav-container {
     width: 1280px;
   }
 }
