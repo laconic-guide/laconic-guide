@@ -115,9 +115,13 @@ ul {
 }
 
 .img-comp {
+
   margin-bottom: 50px;
 }
 
+#lightgallery img, .cocoen {
+  box-shadow: 0 10px 40px #000;
+}
 
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
