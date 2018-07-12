@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../img/dark_leather.png");
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Fondamento', serif;
+  color: #fff;
+  letter-spacing: .02em;
+  margin: 0 0 20px 0;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+p, a {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: #ddd;
+  line-height: 1.6em;
+  margin: 0 0 20px 0;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  width: 100%;
+  height: 80px;
+  top: 0;
+  position: fixed;
+  background: #000;
+  z-index: 10;
+  border-bottom: 1px solid #fff;
+  box-shadow: 0 10px 40px 0 #000;
+}
+
+.nav-container {
+  width: 1280px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.nav-container ul {
+  display: flex;
+  flex-direction: row-reverse;
+  list-style-type: none;
+  height: 100%;
+}
+
+.nav-container ul li {
+  width: 10%;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 80px;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.one-half {
+  width: 50%;
+}
+
+.img-comp-container {
+  position: relative;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.img-comp-back {
+  box-shadow: 0 10px 40px 0 #000;
+  position: absolute;
+}
+
+.img-comp-overlay {
+  position: relative;
+  overflow: hidden;
+}
+
+.img-comp-container img {
+  display: block;
+  width: 1280px;
+  vertical-align: middle;
+}
+
+.img-comp-slider {
+  position: absolute;
+  z-index: 9;
+  cursor: ew-resize;
+  /*set the appearance of the slider:*/
+  width: 50px;
+  height: 50px;
+  background-color: #039BE5;
+  opacity: 0.25;
+  border-radius: 50%;
+  transition: opacity .3s;
+}
+
+.img-comp-slider:hover {
+  opacity: .75;
+}
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*
+Note: The best way to structure the use of media queries is to create the queries
+near the relevant code. For example, if you wanted to change the styles for buttons
+on small devices, paste the mobile query code up in the buttons section and style it
+there.
+*/
+
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
