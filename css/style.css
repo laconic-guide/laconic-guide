@@ -70,7 +70,7 @@ ul {
   flex-direction: row-reverse;
   list-style-type: none;
   height: 100%;
-  padding: 0 30px;
+  margin: 0 30px;
 }
 
 .nav-container ul li {
@@ -85,7 +85,6 @@ ul {
   width: 250px;
   margin: 0 auto;
   position: relative;
-  margin-top: 100px;
   display: flex;
   flex-direction: column;
 }
@@ -147,7 +146,7 @@ there.
   }
 
   .container {
-    margin-top: 40px;
+    padding-top: 40px;
   }
 
   .container, .nav-container{
@@ -156,7 +155,7 @@ there.
 
   .nav-container ul {
     flex-direction: column-reverse;
-    margin: 30px 0;
+    padding: 30px 0;
   }
 
   .nav-container ul li {
@@ -212,12 +211,12 @@ there.
   }
 
   .container {
-    margin-top: 100px;
+    padding-top: 100px;
   }
 
   .nav-container ul {
     flex-direction: row-reverse;
-    margin: 0;
+    padding: 0;
   }
 
   .nav-container ul li {
