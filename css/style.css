@@ -32,7 +32,7 @@ p, a {
   font-size: 16px;
   color: #aaa;
   line-height: 1.6em;
-  margin: 0 0 20px 0;
+  margin: 0 0 15px 0;
   text-decoration: none;
 }
 
@@ -47,6 +47,12 @@ a:hover {
 ul {
   margin: 0;
   padding: 0;
+}
+
+.bulleted-list {
+  padding: 0 30px;
+  color: #aaa;
+  list-style-type: circle;
 }
 
 .nav {
@@ -101,7 +107,7 @@ ul {
   width: 100%;
 }
 
-.column img {
+#lightgallery img {
   width: 100%;
   margin-bottom: 30px;
 }
@@ -118,12 +124,21 @@ ul {
   width: 40%;
 }
 
+.divider {
+  width: 100%;
+  text-align: center;
+}
+
+.divider img {
+  width: 25%;
+  margin-bottom: 50px;
+}
+
 .left-margin {
   margin-left: 40px;
 }
 
 .img-comp {
-
   margin-bottom: 50px;
 }
 
@@ -141,7 +156,7 @@ there.
 */
 
 /* Larger than a peanut */
-@media (min-width: 268px) {
+@media (min-width: 100px) {
   .nav {
     position: relative;
   }
@@ -179,7 +194,7 @@ there.
   }
 
   .bottom-margin {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
   }
 }
 
@@ -245,10 +260,6 @@ there.
 
   .left-margin {
     margin-left: 40px;
-  }
-
-  .bottom-margin {
-    margin-bottom:; 0;
   }
 }
 
